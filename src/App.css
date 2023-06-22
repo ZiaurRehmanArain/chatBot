@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+#root{
+  max-width: 1280;
+  padding:2rem ;
+  margin:  0 auto;
+  text-align: center;
+}
+.heading{
+  font-family:monospace;
+}
+.grid-main{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+.grid-child h3{
+font-family: monospace;
+font-weight: 700;
+}
+.grid-child{
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+.grid-child:hover{
+ color: rgb(255, 237, 237);
+ background: #6c6c6c;
+}
+.grid-child p{
+font-family: monospace;
+font-weight: 500;
+font-size: 15px;
+}
+.text-area{
+  font-size: 15px;
+  padding: 10px;
+}
+
+.action-btn{
+  width: 40%;
+  height: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
